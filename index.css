@@ -1,0 +1,347 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    background-image: linear-gradient(to right, rgb(194, 238, 238),white);
+}
+
+.first_div{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.navbar{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: flex; 
+    z-index: 2;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 36px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.nav-list a:hover{
+    color:aqua;
+}
+
+.profile_img{
+    float: right;
+     width: 35%;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-right: 1%;
+}
+#hea_der{
+    margin-top: 10px;
+}
+header{
+    border-radius: 3rem;
+    width: 80%;
+    height: 900px;
+    margin:8% auto;
+   background-color: lightgrey;
+}
+
+.info_para{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 64px;
+}
+.personalinfo {
+    font-family: 'Fira Sans', sans-serif;
+    word-spacing: 2px; 
+    text-align: center;
+    width: 60%;
+    height: fit-content;
+    margin-top: 6%;
+    margin-left: 1%;
+    padding: 10px;
+    display: inline-block;    
+    border-radius:30px;
+    background-color:white ;
+}
+
+.btn{
+    width: 120px;
+    padding: 5px;
+    border-radius: 9px;
+    background-image: linear-gradient(to right,blue,skyblue);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right,skyblue,blue);
+}
+.anchor_image{
+    margin: 2px;
+    opacity: 0.2;
+}
+
+#anchor_div img:hover {
+    opacity: 1;
+}
+
+#skill_section {
+    border-radius: 30px;
+    width: 80%;
+    height: 700px;
+    margin:4% auto;
+    background-color: white;
+}
+section h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#address_div{
+    text-align: justify;
+    margin-left: 35%;
+    width: fit-content;
+}
+#address_div img{
+    cursor: pointer;
+}
+#skill_section h2{
+    margin-bottom: 60px;
+    margin-left: 40px;
+    width: 200px;
+    padding: 10px 50px;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.skill_p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.section_div{
+    width: 100%;
+    background-color: rgb(205, 214, 214);
+    border-radius: 40px;
+    height: 25px;
+    margin-top: 20px;
+}
+.skill{
+    text-align: right;
+    color: black;
+    border-radius: 40px;
+    height: 25px;
+}
+.html {
+    width: 85%; 
+    background-color: #13cec8;
+}
+.css {width: 80%; background-color:  #13cec8;}
+.js {width: 65%; background-color:  #13cec8;}
+.java {width:75%; background-color:  #13cec8;}
+
+#education_section {
+    border-radius: 30px;
+    width: 80%;
+    height: 1000px;
+    margin: 4% 8%;
+    display: inline-block;
+    background-color: lightgrey;
+}
+
+#education_section h2{
+    margin-bottom: 60px;
+    margin-left: 40px;
+    padding: 10px 50px;
+}
+.edu_span{
+    font-size: large;
+    font-weight: bold;
+}
+/* #aside_div p{
+    width: 80px;
+    padding: 5px;
+    margin-top: 40px;
+}  */
+.edu_para{
+    width: 50%;
+    padding: 20px;
+    margin: 90px 30px;
+    margin-right: 60px;
+}
+.edu_para2{
+    width: 70%;
+    padding: 11px;
+    margin: 60px 30px;
+    margin-right: 60px;
+}
+.edu_div{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    display: flex;
+    text-align: center; 
+    background-color: lightgrey;   
+}
+.div1_list{
+    bottom: 9%;
+    width: 50%;
+    height: 131%;
+    margin: auto 40px;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right, cadetblue, rgb(194, 238, 238) );
+}
+.div2_list{
+    width: 60%;
+    margin: 40px;
+    position: relative;
+    bottom: 16%;
+    height: 130%;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, cadetblue, rgb(194, 238, 238) );
+}
+#blank{
+    width: 4px;
+    height: 130%;
+    display: inline-block;
+    position: relative;
+    bottom: 9%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    z-index: 1;
+    background-image: linear-gradient(to right, blue,black);
+}
+.blank_span1{
+    width: 3px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 110px;
+}
+.blank_span2{
+    width: 3px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 230px;
+}
+.blank_span3{
+    width: 3px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 370px;
+}
+.blank_span4{
+    width: 3px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 490px;
+}
+
+#project_sect{
+    border-radius: 30px;
+    width: 80%;
+    height: 700px;
+    margin:4% 8%;
+    display: inline-block;
+    background-color: white; 
+}
+#project_sect h2{
+    margin-bottom: 60px;
+    margin-left: 40px;
+    width: 200px;
+    padding: 10px 50px;
+}
+
+#project_sect li{
+    margin-top:40px ;
+    margin-left: 40px;
+    font-size: 1.2rem;
+}
+#footer_sect{
+    width: 100%;
+    height: 300px;
+    margin-top: 160px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, cadetblue, rgb(194, 238, 238) );
+}
+footer h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+.footer_div{
+    width: 50%;
+    font-size: 1.2rem;
+    margin-left: 25%;
+    text-align: center;
+}
+footer a{
+    opacity: 1;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 42px;
+    background-color: white;
+    height: 4px;
+    margin: 8px 3px;
+}
+@media only screen and (max-width:1000px) {
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    .first_div{
+        height: 340px;
+    }
+}
